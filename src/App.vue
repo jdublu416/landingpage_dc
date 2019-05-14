@@ -27,6 +27,7 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+ 
 }
 #app {
   font-family: "Montserrat", sans-serif;
@@ -36,21 +37,20 @@ export default {
 .title-container{
   text-align: left;
   display: grid;
-  /* /* justify-content: center; */
   align-items: center; 
   width: 80%;
-  margin: 250px auto;
+  margin: 200px auto;
   padding-left: 50px;
 
 }
 
 #main-title {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   font-weight: 300;
 }
 
 #main-subtitle {
-  font-size: 3.0rem;
+  font-size: 2.5rem;
   font-weight: 300;
   font-family: 'Raleway', sans-serif;
 }

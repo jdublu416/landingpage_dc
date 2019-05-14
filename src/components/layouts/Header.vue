@@ -21,19 +21,22 @@ export default {
 
 <style scoped>
 .header-comp-nav{
-    background-color: #8193ab;
+    background-color: #1f242b;
     opacity: .6;
     height: 120px;
+    margin-top:0;
     
 }
 
 .logo{
-    width:20%;
+    width:30%;
     font-size: 1.5em;
     padding: 25px 50px;
+    color:whitesmoke;
 }
 .logo span{
-color: hsl(203, 26%, 28%);
+color: hsl(27, 80%, 52%);
+opacity:0.8;
 
 
 }
@@ -49,11 +52,12 @@ ul{
     text-decoration:none;
     padding: 5px 10px;
     text-transform: uppercase;
+    color:whitesmoke;
     
 }
 
 .nav-list-item a {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
     
 }
