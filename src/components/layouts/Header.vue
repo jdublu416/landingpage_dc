@@ -21,7 +21,8 @@ export default {
 
 <style scoped>
 .header-comp-nav{
-    background-color: #1f242b;
+    /* background-color: #282f38; */
+    background-image: linear-gradient(left, #516683, black);
     opacity: .6;
     height: 120px;
     margin-top:0;

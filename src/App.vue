@@ -39,13 +39,13 @@ export default {
   display: grid;
   align-items: center; 
   width: 80%;
-  margin: 200px auto;
-  padding-left: 50px;
+  margin: 400px auto 0 auto;
+  padding-left: 30px;
 
 }
 
 #main-title {
-  font-size: 2.0rem;
+  font-size: 2.2rem;
   font-weight: 300;
 }
 
