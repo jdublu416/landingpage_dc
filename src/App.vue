@@ -39,19 +39,22 @@ export default {
   display: grid;
   align-items: center; 
   width: 80%;
-  margin: 400px auto 0 auto;
+  margin: 375px auto 0 auto;
   padding-left: 30px;
 
 }
 
 #main-title {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 300;
+  text-shadow:2px 3px 8px rgba(32, 46, 59, 0.5);
 }
 
 #main-subtitle {
-  font-size: 2.5rem;
+  font-size: 3.0rem;
   font-weight: 300;
   font-family: 'Raleway', sans-serif;
+  text-shadow:5px 2px 8px rgba(32, 46, 59, 0.507);
+  line-height:1.4;
 }
 </style>
