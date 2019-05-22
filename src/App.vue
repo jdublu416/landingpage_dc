@@ -23,11 +23,25 @@ export default {
 </script>
 
 <style>
+
+@keyframes textEffectTest{
+  0%   {font-size: 2.5rem;}
+  25%  {font-size: 2.55rem;}
+  50%  {font-size: 2.55rem;}
+  100% {font-size: 2.5rem;}
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
  
+}
+
+body{
+  background: radial-gradient(closest-corner, rgba(255, 255, 255, 0.0),rgba(255, 255, 255, 0.25), rgba(10, 10, 10, .25), 
+  rgba(255, 255, 255, 0.5) );
+  z-index: 0;
+  
 }
 #app {
   font-family: "Montserrat", sans-serif;
@@ -48,6 +62,11 @@ export default {
   font-size: 2.5rem;
   font-weight: 300;
   text-shadow:2px 3px 8px rgba(32, 46, 59, 0.5);
+  animation-name: textEffectTest;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+  
 }
 
 #main-subtitle {

@@ -1,7 +1,7 @@
 <template>
     <video autoplay muted loop id="myVideo">
-  <source src="../../assets/videodc.mp4" type="video/mp4">
-</video>
+        <source src="../../assets/videodc.mp4" type="video/mp4">
+    </video>
 </template>
 
 <script>
@@ -18,7 +18,7 @@ export default {
   bottom: 0;
   max-width: 100wh; 
   max-height: 100vh;
-  min-width: 120%;
+  min-width: 100%;
   min-height:auto;
   opacity:0.6;
   z-index: -1;
